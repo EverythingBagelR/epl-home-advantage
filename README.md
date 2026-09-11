@@ -17,7 +17,14 @@ The interpretation is causal only under the assumption that no other period-spec
 
 ## Data and identification
 
-The analysis contains all 1,900 matches from five complete Premier League seasons, 2017/18 through 2021/22, involving 28 clubs. Match results come from the [Datahub English Premier League dataset](https://datahub.io/football/english-premier-league). The reproducible pipeline retains match date, home and away teams, full-time goals, and the three-way result.
+The analysis contains all 1,900 matches from five complete Premier League seasons, 2017/18 through 2021/22, involving 28 clubs.
+Match results were downloaded from the
+[DataHub English Premier League dataset](https://datahub.io/football/english-premier-league),
+whose package metadata identifies
+[Football-Data.co.uk](https://www.football-data.co.uk/)
+as the original source. DataHub distributes the dataset under the
+[Open Data Commons Public Domain Dedication and License 1.0 (ODC PDDL 1.0)](https://opendatacommons.org/licenses/pddl/1-0/).
+The reproducible pipeline retains match date, home and away teams, full-time goals, and the three-way result.
 
 | Period | Date definition | Matches | Home win | Draw | Away win |
 |---|---|---:|---:|---:|---:|
@@ -187,4 +194,8 @@ Natural next steps are to add verified match-level attendance, allow team streng
 
 ## License
 
-Released under the MIT License. Data remain subject to the terms of their original provider.
+The analysis code is released under the MIT License. Match data are not
+redistributed in this repository and remain subject to the
+[ODC PDDL 1.0](https://opendatacommons.org/licenses/pddl/1-0/)
+terms stated by DataHub. Data provenance is credited to DataHub and
+Football-Data.co.uk.
