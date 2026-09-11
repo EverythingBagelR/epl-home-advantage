@@ -1,0 +1,30 @@
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Generated data and fitted objects
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.rds
+
+# CmdStan compilation products (keep the .stan source)
+stan/davidson_bt
+stan/davidson_bt.exe
+stan/davidson_bt_ghost_split
+stan/davidson_bt_ghost_split.exe
+stan/davidson_bt_ghost_trend
+stan/davidson_bt_ghost_trend.exe
+stan/*.exe
+stan/*.hpp
+stan/*.o
+stan/*.d
+
+# Operating-system files
+.DS_Store
+Thumbs.db
