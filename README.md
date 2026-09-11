@@ -1,6 +1,7 @@
 # What Is a Premier League Crowd Worth?
 
-> Empty stadiums created a quasi-natural experiment. Across 1,900 Premier League matches, a Bayesian Davidson model finds greater than 99.9% posterior probability that home advantage fell during pandemic-era attendance restrictions.
+> Home advantage, the consistent tendency for teams competing on their own ground to outperform their away record, is one
+of the most robust empirical regularities in team sports. During the COVID, empty stadiums created a quasi-natural experiment. Across 1,900 Premier League matches, a Bayesian Davidson model finds greater than 99.9% posterior probability that home advantage fell during pandemic-era attendance restrictions.
 
 ![Posterior home advantage by period](figures/home_advantage_by_period.png)
 
@@ -10,9 +11,9 @@ _Posterior medians and 95% credible intervals. Home advantage fell sharply durin
 
 Did playing behind closed doors reduce home advantage in the English Premier League, and did that advantage return when supporters came back?
 
-The COVID-19 shutdown provides a quasi-natural experiment. Stadium access changed abruptly for reasons external to any individual club or match. Comparing league competition before, during, and after this disruption helps separate the crowd-related component of home advantage from stable features such as travel, pitch familiarity, and club identity.
+The COVID-19 shutdown provides a quasi-natural experiment. Stadium access changed abruptly for external reasons to any individual club or match. Comparing league competition before, during, and after this disruption helps separate the crowd-related component of home advantage from stable features such as travel, pitch familiarity, and club identity.
 
-The interpretation is causal only under the identifying assumption that no other period-specific shock changed home and away performance at the same cutoff in a way the model fails to capture. The analysis therefore provides evidence from a strong natural comparison, not a randomized experiment.
+The interpretation is causal only under the assumption that no other period-specific shock changed home and away performance at the same cutoff in a way the model fails to capture. The analysis therefore provides evidence from a strong natural comparison, not a randomized experiment.
 
 ## Data and identification
 
@@ -24,7 +25,7 @@ The analysis contains all 1,900 matches from five complete Premier League season
 | Restricted attendance | 2020-03-09 through 2021-05-23 | 473 | 39.7% | 21.8% | 38.5% |
 | Post-COVID | On or after 2021-08-13 | 380 | 42.9% | 23.2% | 33.9% |
 
-The summer interval from 2021-05-24 through 2021-08-12 is outside the analysis periods. Team-level latent strengths adjust for the identities of the home and away clubs. The original date boundaries are retained exactly for comparability with the course analysis.
+The summer interval from 2021-05-24 through 2021-08-12 is outside the analysis periods due to the full lockdown issued by the UK government at the time. Team-level latent strengths adjust for the identities of the home and away clubs. The original date boundaries are retained exactly for comparability with the course analysis.
 
 ## Primary model
 
